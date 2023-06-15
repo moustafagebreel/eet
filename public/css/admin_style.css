@@ -1,0 +1,36 @@
+.content{
+
+background-position:right;
+background-size:cover;
+ width:400px;
+ height: 550px;
+ border-radius:0px 10px 10px 0px ;
+ margin-left:0px;
+ padding: 10;
+
+
+}
+.login{
+    width: 300px;
+    padding: 20px;
+    height: 500px;
+    border-radius:10px 0 0 10px ;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.925),
+    #01090c);
+    color: #4c9ab8;
+    height:550px;
+
+   
+}
+.all{
+   border: 1px solid rgb(48, 2, 2);
+   width: 705px;
+   border-radius:10px;
+   margin-top: 80px;
+   height:550px;
+}
+
+h4{
+    text-align: center;
+   padding-top: 20px;
+}

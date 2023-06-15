@@ -1,0 +1,32 @@
+/* page content  edit page style */
+    .edit-page{
+        margin-left:400px;
+        border:1px solid rgba(3, 5, 83, 0.904);
+        width: 450px;
+        padding: 10px ;
+        margin-top: 50px;
+        height: 550px;
+        border-radius: 10px;
+       }
+       .edit-page h2{
+           margin-top: 20px;
+           color: rgba(3, 5, 83, 0.904);
+           margin-bottom:60px
+       }
+       .edit-page input,#select {
+           color: rgba(3, 5, 83, 0.904);
+           border:1px solid rgba(3, 5, 83, 0.904);
+           width:320px;
+           border-radius: 10px;
+           padding:10px;
+           margin:10px;
+           margin-left:-20px
+          
+        }  
+        #button{
+            background:rgba(3, 5, 83, 0.904);
+            color: #fff;
+            float: right;
+            margin-top:40px;
+           
+        }

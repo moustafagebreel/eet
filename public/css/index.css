@@ -1,0 +1,397 @@
+
+
+    body{
+     
+        background:rgb(5, 57, 73);
+        font-family: 'Tajawal', sans-serif;
+
+    }
+   
+    h1{
+        color:rgb(255, 240, 252);
+        margin-top:50px;
+        padding-left:210px;padding-right:80px
+        
+    }
+   .buttons{
+   background: white;
+   width:98%;
+   border-radius:15px;
+   }
+   .btn2{
+    padding:10px;
+    width:90px;
+    margin-left:5px;
+    background: rgb(18, 128, 161);
+    outline:  rgb(11, 103, 131);
+    color: aliceblue
+   }
+   /*  second section style */
+   .contant_section{
+    background: rgba(228, 83, 16, 0.904);
+ 
+   }
+   .contant_div{
+    background: #fff;
+    width:100%;
+   }
+   .search{
+    width:70%;
+    border-radius:3px;
+    margin-top: 15px
+   }
+
+   #btn{
+    background: rgba(228, 83, 16, 0.904);
+   }
+  
+/* ---------------------------------------------------- */
+/* family-button*/
+#family-button{
+    display: none;
+}
+/* ------------------------------------------------------- */
+   /*  style maintree style */
+#main{
+   
+    margin:11px;
+    border:1px solid rgb(29, 123, 199);
+    border-radius:15px;
+    padding:10px;
+    background: rgba(58, 132, 202, 0.267);
+    padding-bottom:50px;
+
+}
+ /*  style midetree style */
+#mide{
+    
+    margin:11px;
+    border:1px solid rgb(29, 123, 199);
+    border-radius:15px;
+    padding:10px;
+    background: #fff;
+    position: relative;
+    padding-bottom:50px;
+}
+ /*  style lasttree style */
+#small{
+    width:280px;
+    margin:11px;
+    border:1px solid rgb(29, 123, 199);
+    border-radius:15px;
+    padding:10px;
+    background: #fff;
+}
+ /*  style maintree ,midetree,lasttree  header style */
+h3,h6{
+    color:rgb(10, 54, 90);
+}
+
+ /*  style maintree style */
+ /* link in maintree that show anmate osra */
+ div ,a{
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+     padding-top:20px;
+ }
+.Ptitle{
+    width:290px;
+    /* border: 1px solid rgb(122, 152, 223); */
+    /* border-radius: 5px; */
+    z-index: 1;
+    padding:5px;
+    /* box-shadow: 0px 10px 10px 0px rgba(228, 236, 238, 0.767); */
+    text-align: right;
+    background: #fff;
+    color: black;
+    margin-bottom: 3px;
+   
+    
+}
+ /*  style maintree  minmize style */
+#min{
+   display: none;
+}
+button.btn.Ftitle.btn-plus.fa-plus.fa-minus::before{
+display: none;
+}
+button.btn.Ftitle2.btn-plus2.fa-plus.fa-minus::before{
+    display: none;
+    }
+   
+
+
+.collapse2{
+    margin-top:10px;
+    padding:0px;
+    width:290px;
+    box-sizing: border-box;
+    text-align:right;
+    font-size:15px;
+    background: none;
+  
+}
+.collapse2 .card{
+    background-color:#ffffff00;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    border-radius: none;
+}
+.Ftitle{
+    color: rgb(13, 43, 175);
+    width:290px;
+    text-align: right;
+    font-size:15px;
+}
+.Ptitle .Ftitle #plus{
+    padding-inline-start:250px;
+    display: flex;
+    margin-top: -15px;
+}
+.Ptitle2 .Ftitle2 #plus2{
+    padding-inline-start:150px;
+}
+
+ul li .hr{
+    text-align: right;
+    font-size:12px;
+    float: right;
+}
+hr{
+   width: 200px;
+    float: right;
+    padding: 0;
+    margin: 0;
+ 
+}
+/*
+الشجره الفرعية*/
+
+.tree{
+    margin-bottom:50px;
+}
+.Ptitle2{
+    width:310px;
+    z-index: 1;
+    font-size: 14px;
+    padding:5px;
+    box-shadow: 1px 1px 1px 1px rgba(90, 93, 94, 0.493),1px 1px 1px 1px  rgba(90, 93, 94, 0.493) inset;
+    text-align: right;
+    background: rgba(51, 110, 165, 0.267);
+    margin-right: -20px;
+    font-weight: bold;
+    
+}
+.Ftitle2{
+    color: rgb(13, 43, 175);
+    width:300px;
+    text-align: right;
+    font-size:15px;
+
+}
+.collapse3{
+  
+    box-shadow: 1px 1px 1px 1px rgba(90, 93, 94, 0.76),1px 1px 1px 1px  rgba(90, 93, 94, 0.493) inset;
+    padding:0px;
+    width:310px;
+    font-size:15px;
+    box-sizing: border-box;
+    text-align:right;
+    margin-right:-20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /*box-shadow: 3px rgb(131, 128, 128);*/
+   
+}
+
+/* last tree*/
+.Ftitle3{
+    color: rgb(13, 43, 175);
+    width:260px;
+    text-align: right;
+    font-size:15px;
+}
+.Ptitle3{
+    width:260px;
+    border: 1px solid rgb(122, 152, 223);
+    z-index: 1;
+    padding:5px;
+    box-shadow: 0px 10px 10px 0px rgba(228, 236, 238, 0.767);
+    text-align: right;
+    background: #fff;
+    color: black;
+    
+}
+
+.showbox2{
+   margin-top:-50px;
+}
+/* to justfiy plus and minimz icon */
+#plus2,#min2{
+    float:left;
+    display: flex;
+   
+}
+#min2{
+    display:none;
+}
+.sbody{
+    font-size:15px;
+    float:right;
+    width:200px;
+    height:50px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+    color: #68280a;
+    font-weight: bold;
+  
+}
+.sbody:hover{
+    color: #68280a;
+    cursor: pointer;
+}
+.sbody_text{
+    padding-right:-70px;
+    text-align:right;
+    float:right;
+    
+}
+.collapse4{
+    margin-top:-30px;
+    width:300px;
+    box-sizing: border-box;
+    text-align:right;
+    font-size:13px;
+    padding-right:0px;
+ 
+ 
+}
+.sbody_text2{
+border: none;
+border-radius: none;
+text-indent: -10px;
+}
+#hr{
+  margin-right: 10px;
+}
+/*  footer style*/
+.footer{
+    color: rgb(0, 0, 0);
+    background:rgba(13, 107, 136, 0.801);
+    width: 80%;
+    height: 70px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 60px;
+
+}
+
+ .showbox{
+    display: none;
+    
+}
+ #apper{
+    display: none;
+    margin-top: -20px;
+
+} 
+
+.rbody-show,.artical-show,.story-show,.exam-show,.video-show,.reference-show,.video-show,.exampl-show,.note-show{
+    margin-bottom:40px;
+    
+}
+.story-show{
+    margin-top:80px;
+
+}
+.secondbox{
+    display: none;
+}
+/* reflect class style */
+.fa-indent,.fa-pencil-square-o,.fa-folder,.fa-video-camera,
+.fa-volume-up,.fa-book,.fa-file-text-o,.fa-file-o,.fa-tachometer{
+    margin-top:15px;
+}
+.fa-tachometer{
+    display: block;
+    font-size: 15px;
+}
+.header{
+font-size: 23px;
+color: rgb(3, 38, 70);
+text-align: center;
+padding: 10px;
+margin-top: -30px;
+cursor: pointer;
+}
+
+.textbod2{
+   padding-right:-300px; 
+   background: #d0571d;
+}
+.rbody,.story,.artical,.video,.audio{
+    display: none;
+}
+/*------------back button style */
+#btn-back{
+    background-color: #68280a;
+    color: #fff;
+    height:40px;
+    margin-top:9px;
+    line-height: 20px;
+
+
+}
+#btn-back:hover{
+    background: #b14310;
+    color: #fff
+}
+#textbody3{
+    font-size:14px;
+    margin-top:-12px;
+    padding:8px;
+    width:300px;
+    box-sizing: border-box;
+    text-align:right;
+    direction: rtl;
+    margin-right: -20px;
+    border: 1px solid #68280a;
+}
+#textbody4{
+    font-size:14px;
+    padding:8px;
+    width:300px;
+    text-align:right;
+    direction: rtl;
+    margin-right: -20px;
+
+}
+.fa-minus-tbody{
+    padding:2px;
+    font-size:5px;
+}
+
+.disappearData{
+    display: none;
+    margin-top:-12px;
+    box-sizing: border-box;
+    text-align:right;
+    margin-right: -70px;
+}
+#textbody2{
+    font-size:14px;
+    margin-top:-12px;
+    padding:8px;
+    width:300px;
+    box-sizing: border-box;
+    text-align:right;
+    direction: rtl;
+    margin-right: -70px;
+    background-color: #b14310;
+    border: 1px solid #68280a;
+
+    }
+
+/*-------------end button style */
